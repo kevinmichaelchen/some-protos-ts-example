@@ -12,11 +12,13 @@ import {
 } from "nice-grpc";
 
 const sayHello = async (): Promise<SayHelloResponse> => {
+  console.log("Dialing gRPC channel...")
   const channel = createChannel(
     "localhost:8080",
     ChannelCredentials.createInsecure()
   );
 
+  console.log("Creating gRPC client...")
   const client: Client<typeof GreeterServiceDefinition> = createClient(
     GreeterServiceDefinition,
     channel
@@ -27,10 +29,13 @@ const sayHello = async (): Promise<SayHelloResponse> => {
   };
   const req: SayHelloRequest = { ...data };
 
+  console.log("Sending gRPC request...")
   const response = await client.sayHello(req);
 
+  console.log("Closing gRPC channel...")
   channel.close();
 
+  console.log("Returning gRPC response...")
   return response;
 };
 
