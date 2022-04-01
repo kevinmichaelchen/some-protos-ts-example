@@ -1,19 +1,50 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "sample-app",
+  "version": "0.0.0",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
-    "start": "ts-node app.ts"
+    "build": "./node_modules/.bin/ts-node build.ts",
+    "build:ci": "ts-node build.ts",
+    "lint": "eslint . --ext .ts --cache",
+    "start": "node -r module-alias/register ./dist --env=production",
+    "start:dev": "./start-dev.sh"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts, html, json",
+    "ignore": [
+      "src/public"
+    ],
+    "exec": "./node_modules/.bin/ts-node -r tsconfig-paths/register ./src"
+  },
+  "_moduleAliases": {
+    "@server": "dist/Server"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.6.0",
+    "@grpc/grpc-js": "^1.6.1",
     "@kevinmichaelchen/some-protos-ts": "^1.0.6",
+    "@types/node": "^16.4.9",
+    "command-line-args": "^5.2.0",
     "long": "^5.2.0",
+    "module-alias": "^2.2.2",
     "nice-grpc": "^1.0.8",
-    "protobufjs": "^6.11.2"
+    "node-cache": "^5.1.2",
+    "protobufjs": "^6.11.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "ts-node": "^10.7.0",
-    "typescript": "^4.4.2"
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "tsconfig-paths": "^3.10.1",
+    "yargs": "^17.2.1"
   }
 }

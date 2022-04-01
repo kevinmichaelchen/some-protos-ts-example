@@ -11,7 +11,7 @@ The ts-proto options we're using are specified in another repo,
 [some-protos-ts](https://github.com/kevinmichaelchen/some-protos-ts/blob/main/buf.gen.yaml).
 
 The code where we're instantiating the gRPC channel and client, and performing 
-the call, can be found in [sayHello.ts](sayHello.ts).
+the call, can be found in [sayHello.ts](src/sayHello.ts).
 
 ### Running
 ```
