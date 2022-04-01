@@ -1384,10 +1384,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@kevinmichaelchen/some-protos-ts@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@kevinmichaelchen/some-protos-ts/-/some-protos-ts-1.0.4.tgz#2f9a9ae54a910d2cde3e4297e300ec86e40bfe37"
-  integrity sha512-IEESWFAFMrZq4nv3r3e8w+wPAapkRV1cMUx+3c0CqQudFl+G/8TP1+cl3gVgwrR/r/HpZcw2oa99+fqx28z77g==
+"@kevinmichaelchen/some-protos-ts@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@kevinmichaelchen/some-protos-ts/-/some-protos-ts-1.0.5.tgz#e8608e496e5db0c191454bced3e7610ca832cf5e"
+  integrity sha512-wsFeEuzk5ElABF32CcBa2Fqyw67GFmXuzY+tkjIy7rdn5TZdlQ8UYUskAMtJQx9KSGN/CFmplzjVa/cMHn6H1w==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@kevinmichaelchen/some-protos-ts": "^1.0.4",
+    "@kevinmichaelchen/some-protos-ts": "^1.0.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
