@@ -1,7 +1,7 @@
 # some-protos-ts-example
 
-A small demo using **nice-grpc** and Typescript protos generated with 
-[**ts-proto**](https://github.com/stephenh/ts-proto).
+A small demo using [**nice-grpc**](https://github.com/deeplay-io/nice-grpc) and 
+Typescript protos generated with [**ts-proto**](https://github.com/stephenh/ts-proto).
 
 The ts-proto options we're using are specified in another repo, 
 [some-protos-ts](https://github.com/kevinmichaelchen/some-protos-ts/blob/main/buf.gen.yaml).
