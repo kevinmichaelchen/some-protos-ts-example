@@ -33,10 +33,10 @@
     protobufjs "^6.10.0"
     yargs "^16.2.0"
 
-"@kevinmichaelchen/some-protos-ts@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@kevinmichaelchen/some-protos-ts/-/some-protos-ts-1.0.5.tgz#e8608e496e5db0c191454bced3e7610ca832cf5e"
-  integrity sha512-wsFeEuzk5ElABF32CcBa2Fqyw67GFmXuzY+tkjIy7rdn5TZdlQ8UYUskAMtJQx9KSGN/CFmplzjVa/cMHn6H1w==
+"@kevinmichaelchen/some-protos-ts@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@kevinmichaelchen/some-protos-ts/-/some-protos-ts-1.0.6.tgz#d53e4ba9eb6a92d608cf90c9d9b43caff8e229c3"
+  integrity sha512-UkHQ1XyWxzAJRcYUCqNU9eAYBt/80BS+hxj6JyZFOLglXrDLU6BgQH5xGCUEKKmhHeYxB9QJiLiRrL8nfOtPjg==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"

@@ -4,6 +4,7 @@ import {
   SayHelloResponse,
   // eslint-disable-next-line max-len
 } from "@kevinmichaelchen/some-protos-ts/gen/ts/some-protos/idl/some/protos/greeter/v1beta1/greeter";
+// } from "./greeter";
 import {
   createChannel,
   createClient,
@@ -38,7 +39,5 @@ const sayHello = async (): Promise<SayHelloResponse> => {
   console.log("Returning gRPC response...")
   return response;
 };
-
-sayHello();
 
 export default sayHello;

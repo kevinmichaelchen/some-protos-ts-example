@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.6.0",
-    "@kevinmichaelchen/some-protos-ts": "^1.0.5",
+    "@kevinmichaelchen/some-protos-ts": "^1.0.6",
     "long": "^5.2.0",
     "nice-grpc": "^1.0.8",
     "protobufjs": "^6.11.2"
